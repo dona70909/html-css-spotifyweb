@@ -14,37 +14,49 @@
 .aside{
     width: 200px;
     background-color: red;
-    height: 85vh;
+  /*   height: 85vh; */
 }
 
 /* *******************!SECTION MAIN CONTENT */
 .main-content{
     background-color: blue;
     width: calc(100% - 200px);
-    height: 85vh;
+  /*   height: 85vh; */
 }
 
+/* BANNER : BUTTON DESTRA */
 .top-banner{
-    height: 10vh;
+    height: 13vh;
     background-color: aqua;
 }
 
+/* MENU LINK CENTER  */
 .list-menu{
     /* height solo per vederla */
     height: 7vh;
     background-color: blueviolet;
 }
 
+/* ? ------CARDS-------- */
+
+.playlists-rows{
+    overflow-y: scroll;
+    height: 65vh;
+}
+
+/* flex */
 .container-cards{
     background-color: bisque;
     padding: 10px;
+
+}
+/* cards flex-items */
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
 }
 
-.card{
-    width: 150px;
-    height: 150px;
-    background-color: cadetblue;
-}
 
 /* ******************!BOTTOM NAV BAR */
 .bottom-bar{
@@ -68,15 +80,21 @@
 
 @media screen and (max-width:576px) {
     .aside{
-        width: 10vh;
+        width: 8vw;
         background-color: red;
-        height: 85vh;
+        height: 90vh;
     }
 
     .main-content{
         background-color: blue;
-        width: 90vw;
-        height: 85vh;
+        width: 92vw;
+        height: 90vh;
+    }
+
+    .bottom-bar{
+        width: 100vw;
+        height: 10vh;
+        background-color: grey;
     }
     
 }
