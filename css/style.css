@@ -27,7 +27,6 @@ p{
 
 /* *******************!SECTION MAIN CONTENT */
 .main-content{
-    background-color: blue;
     width: calc(100% - 200px);
   /*   height: 85vh; */
 }
@@ -42,7 +41,6 @@ p{
 .list-menu{
     /* height solo per vederla */
     height: 7vh;
-    /* background-color: blueviolet; */
     background-color: rgb(20, 25, 34);
 }
 
@@ -60,14 +58,13 @@ p{
 
 /* flex */
 .container-cards{
-    /* background-color: bisque; */
     padding: 10px;
     gap: 5px 10px;
 }
 /* cards flex-items */
 .card{
     width: 200px;
-    /* background-color: aqua;*/
+    flex-shrink: 0;
 } 
 
 .card img{
@@ -118,6 +115,18 @@ p{
         height: 10vh;
         background-color: grey;
     }
+
+    /* flex */
+    .container-cards{
+        padding: 10px;
+        gap: 5px 10px;
+        flex-wrap: wrap;
+    }
+    /* cards flex-items */
+    .card{
+        width: 200px;
+        flex-shrink: 0;
+    } 
     
 }
 
