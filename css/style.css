@@ -111,7 +111,8 @@ p{
 .top-banner > button{
     padding: 1rem 2rem;
     background-color: #080b12;
-    border-color: white;
+    border: .1rem solid white;
+    border-radius: 30px;
 }
 
 /* ******* MENU LINK CENTER  flex*******/
@@ -217,6 +218,7 @@ p{
 .progress-bar-big{
     width: 25rem;
     height: 10px;
+    border-radius: 30px;
     background-color: #525252;
 }
 
@@ -224,11 +226,13 @@ p{
     background-color: white;
     width:  20%;
     height: 10px;
+    border-radius: 30px;
 }
 
 .progress-bar-small{
     width: 10rem;
     height: 10px;
+    border-radius: 30px;
     background-color: #525252;
 }
 
