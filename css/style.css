@@ -228,7 +228,7 @@ p{
 }
 
 
-/* ! _____________LARGE___________ */
+/* ! _____________________LARGE__________ */
 @media screen and (min-width:992px) and (max-width:1199px) {
 
     .container-cards{
@@ -244,7 +244,7 @@ p{
     
 }
 
-/* !_____________________Medium___________ */
+/* !_____________________MEDIUM__________ */
 @media  screen and (min-width:768px) and (max-width:991px) {
     
 
@@ -272,7 +272,7 @@ p{
 
 }
 
-/* !_____________Small_______ */
+/* !_____________________SMALL___________ */
 @media  screen and (min-width:577px) and (max-width:767px) {
     
     /* MENU LINK CENTER  flex*/
@@ -303,7 +303,7 @@ p{
     
 }
 
-/* !________________________EXTRA SMALL_________ */
+/* !____________________EXTRA SMALL______ */
 @media screen and (max-width:576px) {
 
     .aside{
