@@ -48,6 +48,11 @@ p{
     list-style: none;
     display: inline-block;
     margin-right: 1rem;
+}
+
+.list-menu  li > a{
+    text-decoration: none;
+    text-transform: uppercase;
     color: #6e7176;
 }
 
@@ -92,7 +97,7 @@ p{
     background-color: grey;
 }
 
-
+/* ! _____________LARGE___________ */
 @media screen and (min-width:992px) and (max-width:1199px) {
 
     .container-cards{
@@ -108,6 +113,7 @@ p{
     
 }
 
+/* !_____________________Medium___________ */
 @media  screen and (min-width:768px) and (max-width:991px) {
     
     .container-cards{
@@ -122,7 +128,18 @@ p{
     } 
 }
 
+/* !_____________Small_______ */
 @media  screen and (min-width:577px) and (max-width:767px) {
+    
+    /* MENU LINK CENTER  flex*/
+    .list-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list-menu > ul > li{
+        margin-bottom: 1rem;
+    }
     
 
     .container-cards{
@@ -137,12 +154,25 @@ p{
     } 
 }
 
+/* !________________________EXTRA SMALL_________ */
 @media screen and (max-width:576px) {
+
     .aside{
         width: 8vw;
         background-color: red;
         height: 90vh;
     }
+
+    /* MENU LINK CENTER  flex*/
+    .list-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list-menu > ul > li{
+        margin-bottom: 1rem;
+    }
+    
 
     .main-content{
         background-color: blue;
