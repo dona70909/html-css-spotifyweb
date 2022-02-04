@@ -80,13 +80,17 @@ p{
     text-transform: uppercase;
 }
 
+.bottom-aside .install-app{
+    margin-bottom: 1rem;
+}
+
 /* *******************!SECTION MAIN CONTENT */
 .main-content{
     width: calc(100vw - 200px);
   /*   height: 85vh; */
 }
 
-/* BANNER : BUTTON DESTRA  flex or clearfix?*/
+/* BANNER : RIGHT BUTTON  flex or clearfix?*/
 .top-banner{
     height: 10vh;
     background-color: #080b12;
@@ -108,7 +112,7 @@ p{
     border-color: white;
 }
 
-/* MENU LINK CENTER  flex*/
+/* ******* MENU LINK CENTER  flex*******/
 .list-menu{
     background-color: rgb(20, 25, 34);
     justify-content: center;
@@ -125,9 +129,10 @@ p{
     text-decoration: none;
     text-transform: uppercase;
     color: #6e7176;
+    font-size: .8rem;
 }
 
-/* ? ------CARDS-------- */
+/* *****------CARDS-------- */
 
 .playlists-rows{
     overflow-y: scroll;
