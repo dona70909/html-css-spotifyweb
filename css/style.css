@@ -28,8 +28,8 @@ p{
     width: 200px;
     color:#a9a9a9;
     padding: 1rem;
-    /*   justify-content: space-between;
-    flex-direction: column; */
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 
@@ -47,6 +47,10 @@ p{
 
 .aside ul li{
     width: 100%;
+}
+
+.home ul li, .playlist ul li{
+    padding: .5rem 0;
 }
 
 /* *******************!SECTION MAIN CONTENT */
