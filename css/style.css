@@ -16,13 +16,37 @@ p{
     color:#65676c;
 }
 
+.fas{
+    font-size: 1.5rem;
+}
+
 /* TODO--------------------------------------------- */
 
 /* ********************!SECTION ASIDE ************/
 .aside{
+    background-color: #080b12;
     width: 200px;
-    background-color: red;
-  /*   height: 85vh; */
+    color:#a9a9a9;
+    padding: 1rem;
+    /*   justify-content: space-between;
+    flex-direction: column; */
+}
+
+
+.aside a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#a9a9a9;
+    margin-left: .5rem;
+    font-size: .8rem;
+}
+
+.aside ul{
+    list-style: none;
+}
+
+.aside ul li{
+    width: 100%;
 }
 
 /* *******************!SECTION MAIN CONTENT */

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- cdnjs icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Spotify</title>
 </head>
 <body>
@@ -12,9 +15,48 @@
         <!-- todo container flex asid + main content -->
         <section class="flex">
 
-            <!-- todo menu aside -->
-            <header class="aside">
-                Menu
+            <!-- todo menu aside flex-->
+            <header class="aside ">
+
+                <div class="logo">
+                    <img src="img/logo.svg" alt="logo spotify">
+                </div>
+
+                <div class="home">
+                    <ul>
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-search"></i>
+                            <a href="#">Cerca</a>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-book-open"></i>
+                            <a href="#">La tua libreria</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="playlist">
+                    <h2>Playlist</h2>
+                    <ul>
+                        <li>
+                            <i class="fas fa-plus-square"></i>
+                            <a href="#">Crea playlist</a>
+                        </li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                    </ul>
+                </div>
             </header>
 
             <!-- todo main content  -->
@@ -33,7 +75,7 @@
                     </ul> 
                 </div>
 
-                <!-- ?playlists container -->
+                <!-- *PLAYLISTS CONTAINER -->
                 <div class="playlists-rows">
 
                     <!-- !first row recently-played -->
