@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* TODO --------------------COMMON PROPERTIES */
+.flex-container{
+    display:flex;
+}
+
+/* TODO--------------------------------------------- */
+
+/* ********************!SECTION ASIDE ************/
+.aside{
+    width: 200px;
+    background-color: red;
+    height: 85vh;
+}
+
+/* *******************!SECTION MAIN CONTENT */
+.main-content{
+    background-color: blue;
+    width: calc(100% - 200px);
+    height: 85vh;
+}
+
+.top-banner{
+    height: 10vh;
+    background-color: aqua;
+}
+
+.list-menu{
+    /* height solo per vederla */
+    height: 7vh;
+    background-color: blueviolet;
+}
+
+.container-cards{
+    background-color: bisque;
+    padding: 10px;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+}
+
+/* ******************!BOTTOM NAV BAR */
+.bottom-bar{
+    width: 100%;
+    height: 15vh;
+    background-color: grey;
+}
