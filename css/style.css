@@ -116,6 +116,18 @@ p{
 /* !_____________________Medium___________ */
 @media  screen and (min-width:768px) and (max-width:991px) {
     
+
+    /* MENU LINK CENTER  flex*/
+    .list-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list-menu > ul > li{
+        margin-bottom: 1rem;
+    }
+
+    
     .container-cards{
         padding: 10px;
         gap: 5px 10px;
