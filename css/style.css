@@ -152,11 +152,27 @@ p{
 }
 
 
-/* ******************!BOTTOM NAV BAR */
+/* ******************!FOOTER BOTTOM NAV BAR */
+/* Footer bottom bar flex */
 .bottom-bar{
     width: 100vw;
     height: 10vh;
     background-color: grey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.footer-left{
+    align-items: center;
+}
+
+.bottom-bar i{
+    margin-right:1rem ;
+}
+
+#small-img{
+    width: 5vw;
 }
 
 /* ! _____________LARGE___________ */
