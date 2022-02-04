@@ -52,3 +52,33 @@
     height: 15vh;
     background-color: grey;
 }
+
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    
+}
+
+@media  screen and (min-width:768px) and (max-width:991px) {
+    
+}
+
+@media  screen and (min-width:577px) and (max-width:767px) {
+    
+}
+
+@media screen and (max-width:576px) {
+    .aside{
+        width: 10vh;
+        background-color: red;
+        height: 85vh;
+    }
+
+    .main-content{
+        background-color: blue;
+        width: 90vw;
+        height: 85vh;
+    }
+    
+}
+
+
