@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'DM Sans', sans-serif;
 }
 /* TODO --------------------COMMON PROPERTIES */
 .flex{
@@ -42,6 +43,7 @@ p{
     display: flex;
     flex-direction: column;
 }
+
 
 /* TODO--------------------------------------------- */
 
