@@ -65,6 +65,10 @@
     width: 100%;
 }
 
+.img-circle{
+    border-radius: 50%;
+}
+
 
 /* ******************!BOTTOM NAV BAR */
 .bottom-bar{
