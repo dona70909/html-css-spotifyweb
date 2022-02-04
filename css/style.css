@@ -20,6 +20,20 @@ p{
     font-size: 1.5rem;
 }
 
+.fa-plus-square{
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
+
+.fa-arrow-alt-circle-down{
+    font-size: 0.8rem;
+    margin-bottom: .5rem;
+}
+
+.border-bottom{
+    border-bottom:1px solid #65676c;
+}
+
 /* TODO--------------------------------------------- */
 
 /* ********************!SECTION ASIDE ************/
