@@ -4,7 +4,7 @@
     padding: 0;
 }
 /* TODO --------------------COMMON PROPERTIES */
-.flex-container{
+.flex{
     display:flex;
 }
 
@@ -44,11 +44,14 @@
     height: 65vh;
 }
 
+.title-playlists{
+    padding: 10px;
+}
+
 /* flex */
 .container-cards{
     background-color: bisque;
     padding: 10px;
-
 }
 /* cards flex-items */
 .card{
