@@ -37,11 +37,18 @@ p{
     background-color: aqua;
 }
 
-/* MENU LINK CENTER  */
+/* MENU LINK CENTER  flex*/
 .list-menu{
-    /* height solo per vederla */
-   /*  height: 7vh; */
     background-color: rgb(20, 25, 34);
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.list-menu > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 1rem;
+    color: #6e7176;
 }
 
 /* ? ------CARDS-------- */
