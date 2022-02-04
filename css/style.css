@@ -30,7 +30,7 @@ p{
     margin-bottom: .5rem;
 }
 
-.fa-spotify{
+.logo-spotify{
     display: none;
 }
 
@@ -53,7 +53,6 @@ p{
 
 .aside a {
     text-decoration: none;
-    text-transform: uppercase;
     color:#a9a9a9;
     margin-left: .5rem;
     font-size: .8rem;
@@ -69,6 +68,10 @@ p{
 
 .home ul li, .playlist ul li{
     padding: .5rem 0;
+}
+
+.playlist h2{
+    text-transform: uppercase;
 }
 
 /* *******************!SECTION MAIN CONTENT */
@@ -135,6 +138,8 @@ p{
 .container-cards{
     padding: 10px;
     gap: 5px 10px;
+    /* 1199 px? width 100vw ? con 100vw scroll invece con wrap si dispone su più appena non ha spazio però è sopra 1199px (quando va oltre 1199)*/
+    flex-wrap: wrap;
 }
 /* cards flex-items */
 .card{
@@ -157,7 +162,7 @@ p{
 .bottom-bar{
     width: 100vw;
     height: 10vh;
-    background-color: grey;
+    background-color: #282828;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
@@ -179,9 +184,49 @@ p{
     margin-right:1rem ;
 }
 
+/* ?middle footer  */
+.progress-bar-big{
+    width: 25rem;
+    height: 10px;
+    background-color: #525252;
+}
+
+.progress-time{
+    background-color: white;
+    width:  20%;
+    height: 10px;
+}
+
+.progress-bar-small{
+    width: 10rem;
+    height: 10px;
+    background-color: #525252;
+}
+
+.flex-clm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* height instead of margin bottom  */
+    height: 10vh;
+}
+
+/* flex */
+.footer-middle-bottom{
+    align-items: center;
+}
+
+.time{
+    margin:0 1rem;
+    color: white;
+}
+
 #small-img{
     width: 5vw;
+    height: 10vh;
 }
+
 
 /* ! _____________LARGE___________ */
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -265,7 +310,7 @@ p{
         display: none;
     }
 
-    .fa-spotify{
+    .logo-spotify{
         display:block;
         font-size: 1.5rem;
         margin-bottom: 1rem;
