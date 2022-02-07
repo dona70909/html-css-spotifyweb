@@ -179,6 +179,10 @@ p{
     padding: 30px;
 }
 
+.playlists-rows  h4{
+    text-align: center;
+}
+
 .title-playlists{
     padding: 10px;
 }
@@ -312,7 +316,7 @@ p{
 /* ?PROGRESS BAR  */
 .progress-bar-big{
     width: 60%;
-    min-width:5rem;
+    min-width:3rem;
     height: 5px;
     border-radius: 30px;
     background-color: #525252;
@@ -321,7 +325,7 @@ p{
 .progress-bar-small{
     /* width: 15rem; */
     width: 60%;
-    min-width:5rem;
+    min-width:3rem;
     height: 5px;
     border-radius: 30px;
     background-color: #525252;
@@ -444,7 +448,6 @@ hr{
 }
 
 
-
 /* ! _____________________LARGE__________ */
 @media screen and (min-width:992px) and (max-width:1199px) {
 
@@ -452,12 +455,6 @@ hr{
     .container-cards{
         gap: 5px 10px;
     } 
-
-    .bottom-bar{
-        background-color: blueviolet;
-        /* width: 100vw;*/
-    } 
-
     
 }
 
@@ -479,10 +476,6 @@ hr{
         gap: 5px 10px;
     }
 
-    .bottom-bar{
-        background-color: aqua;
-
-    }
 }
 
 /* !_____________________SMALL___________ */
@@ -505,10 +498,6 @@ hr{
     }
     
     /* FOOTER */
-
-    .bottom-bar{
-        background-color: blue;
-    }
 
     .footer-left {
         flex: wrap;
@@ -570,11 +559,7 @@ hr{
         flex-wrap: wrap;
     }
 
-    /* FOOTER */
-    .bottom-bar{
-        background-color: red;
-     /*    background-color: #282828; */
-    }
+
 
 }
 
