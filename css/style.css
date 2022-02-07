@@ -407,6 +407,11 @@ p{
         display: none;
     }
 
+    /* border bottom download icon */
+    .border-bottom{
+        border-bottom: none;
+    }
+
     /* MENU LINK CENTER  flex*/
     .list-menu{
         flex-wrap: wrap;
