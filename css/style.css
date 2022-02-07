@@ -6,6 +6,7 @@
 }
 /* TODO --------------------COMMON PROPERTIES */
 main{
+    /* bottom bar fissa */
     height: calc(100vh - 80px);
     overflow-y: auto;
 }
@@ -218,7 +219,8 @@ p{
 .playlists-rows{
     overflow-y: scroll;
     /*  height: 80vh; */
-    height: calc(100vh - 160px);
+    /* overflow funziona comunque ma su tutta la sezione main-right, con l'altezza restava uno spazio bianco alla fine, dovuto al padding dell'aside */
+    /* height: calc(100vh - 160px); */
     /* prendi sempre tutto lo schermo tranne bottom bar */
     background-color:rgb(20, 25, 34);
     padding: 30px;
