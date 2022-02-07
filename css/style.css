@@ -5,6 +5,11 @@
     font-family: 'DM Sans', sans-serif;
 }
 /* TODO --------------------COMMON PROPERTIES */
+main{
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
 .flex{
     display:flex;
 }
