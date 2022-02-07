@@ -110,6 +110,17 @@ p{
     margin-bottom: 1rem;
 }
 
+.user  object{
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 1px;
+    vertical-align: middle;
+    filter: invert(0);
+    background-color: #65676c;
+}
+
+
 /* *******************!SECTION MAIN CONTENT */
 .main-content{
     width: calc(100vw - 200px);
