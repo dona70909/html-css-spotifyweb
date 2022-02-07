@@ -369,8 +369,8 @@ p{
     display: none;
 }
 
-.card > img:hover{
-    filter: opacity(1);
+.container-img-relative  > img:hover{
+    filter: opacity(.5);
 }
 .container-img-relative:hover .center-play{
     display: block;
