@@ -299,7 +299,6 @@ p{
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* width: 60vw; */
 }
 
 
@@ -359,7 +358,6 @@ p{
 
 .small-img{
     width: 70px;
-    flex-shrink: 0;
 }
 
 /* todo  ++++++++++++++++++++++++++++++++ HOVER +++++++++++++++++++++++++++++++ */
@@ -552,7 +550,17 @@ hr{
         flex-wrap: wrap;
     }
 
+    .footer-middle i{
+        font-size: 1rem;
+    }
 
+    .time{
+        font-size: .7rem;
+    }
+
+    .footer-left{
+        min-width: auto;
+    }
 
 }
 
