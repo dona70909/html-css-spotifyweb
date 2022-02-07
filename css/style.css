@@ -226,7 +226,7 @@ p{
     padding: 30px;
 }
 
-.playlists-rows  h4{
+.card > h4,.card > p{
     text-align: center;
 }
 
