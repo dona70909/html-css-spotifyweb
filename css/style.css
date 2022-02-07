@@ -292,6 +292,17 @@ p{
     /* width: 60vw; */
 }
 
+
+.fa-play{
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: .5rem 0rem 0 0.2rem;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
 /* ?PROGRESS BAR  */
 .progress-bar-big{
     width: 60%;
