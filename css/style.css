@@ -393,6 +393,7 @@ p{
 }
 .container-img-relative:hover .center-play{
     display: block;
+    pointer-events: none;
 }
 
 .top-banner > a:hover{
