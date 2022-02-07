@@ -205,9 +205,6 @@ p{
     border-radius: 50%;
 }
 
-.card p,h4{
-    text-align: center;
-}
 
 .card h4{
     margin-bottom: .5rem;
@@ -261,6 +258,14 @@ p{
 
 .footer-left .footer-brano-icons .fa-heart{
     margin:0 .3rem .3rem 0;
+}
+
+.footer-left .fa-heart{
+    color: #525252;
+}
+
+.footer-left .fa-folder{
+    color:#525252;
 }
 
 /* *FOOTER  MIDDLE*/
@@ -379,6 +384,24 @@ p{
 .top-banner > a:hover{
     transform: scale(1.3);
 }
+
+.list-menu a:hover, .aside a:hover,.playlist li:hover{
+    color:white;
+}
+
+.fa-play:hover{
+    transform: scale(1.2);
+}
+
+.footer-left .fa-heart:hover{
+    color:white;
+}
+
+.footer-left .fa-folder:hover{
+    color:white;
+}
+
+
 
 /* ! _____________________LARGE__________ */
 @media screen and (min-width:992px) and (max-width:1199px) {
