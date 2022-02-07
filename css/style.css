@@ -57,19 +57,37 @@ p{
 .aside{
     background-color: #080b12;
     width: 200px;
-   /*  width: 20vw; */
+    /*  width: 20vw; */
     color:#a9a9a9;
-    padding: 1rem; 
+    /* padding: 1rem;  */
     justify-content: space-between;
     flex-direction: column;
 }
+
+/*??linea laterale */
+.logo{
+    padding:1rem;
+}
+
+.border-left-line{
+    padding:0 1rem;
+}
+
+.playlist{
+    padding:0 1rem;
+}
+
+.bottom-aside{
+    padding: 0 1rem;
+}
+
+/* ??????????????? */
 
 .aside object{
     width: 1.3rem;
     vertical-align: baseline;
     filter: invert(.4);
 }
-
 
 .aside a{
     text-decoration: none;
@@ -85,10 +103,6 @@ p{
 .home ul li, .playlist ul li{
     padding: .5rem 0;
     font-size: .7rem;
-}
-
-.home {
-    padding: 0;
 }
 
 .playlist h2{
@@ -111,13 +125,13 @@ p{
     background-color: #bbbbbb;
 }
 
-    /* Handle */
+/* Handle */
 ::-webkit-scrollbar-thumb {
     background:rgb(104, 104, 104);
     border-radius: 10px; 
 }
-    
-    /* Handle on hover */
+
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(78, 78, 78); 
 }
@@ -143,6 +157,10 @@ p{
     vertical-align: middle;
     filter: invert(0);
     background-color:#828282;
+}
+
+.user{
+    margin-bottom: 1rem;
 }
 
 
@@ -199,7 +217,7 @@ p{
 
 .playlists-rows{
     overflow-y: scroll;
-   /*  height: 80vh; */
+    /*  height: 80vh; */
     height: calc(100vh - 160px);
     /* prendi sempre tutto lo schermo tranne bottom bar */
     background-color:rgb(20, 25, 34);
@@ -400,7 +418,7 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-
+    
     width: 3rem;
     height: 3rem;
     text-align: center;
@@ -441,7 +459,7 @@ hr{
     color: #90d42d;
 }
 
-.home > ul > li:hover object {
+.home > ul > li:hover .border-left-line{
     border-left: 1px solid #90d42d;
 }
 
@@ -459,7 +477,7 @@ hr{
 
 .progress-time:hover .circle{
     display: block;
-
+    
 }
 
 .progress-time:hover {
@@ -469,7 +487,7 @@ hr{
 
 /* ! _____________________LARGE__________ */
 @media screen and (min-width:992px) and (max-width:1199px) {
-
+    
     /* smaller gap? */
     .container-cards{
         gap: 5px 10px;
@@ -479,45 +497,45 @@ hr{
 
 /* !_____________________MEDIUM__________ */
 @media  screen and (min-width:768px) and (max-width:991px) {
-
+    
     /* MENU LINK CENTER  flex*/
     .list-menu{
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    
     .list-menu > ul{
         text-align: center;
     }
-
+    
     /* smaller gap */
     .container-cards{
         gap: 5px 10px;
     }
-
+    
 }
 
 /* !_____________________SMALL___________ */
 @media  screen and (min-width:577px) and (max-width:767px) {
     
-
+    
     /* MENU LINK CENTER  flex*/
     .list-menu{
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    
     .list-menu > ul{
         text-align: center;
     }
-
+    
     /* smaller gap */
     .container-cards{
         gap: 5px 10px;
     }
     
     /* FOOTER */
-
+    
     .footer-left {
         flex: wrap;
     }
@@ -526,70 +544,70 @@ hr{
 
 /* !____________________EXTRA SMALL______ */
 @media screen and (max-width:576px) {
-
+    
     .aside{
         width: 8vw;
         align-items: center;
         text-align: center;
     }
-
+    
     .logo > img{
         display: none;
     }
-
+    
     .logo-spotify{
         display:block;
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
-
+    
     .aside a,.playlist{
         display: none;
     }
-
+    
     /* border bottom download icon */
     .border-bottom{
         border-bottom: none;
     }
-
+    
     /* MENU LINK CENTER  flex*/
     .list-menu{
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    
     .list-menu > ul{
         text-align: center;
     }
-
+    
     /* smaller gap */
     .container-cards{
         gap: 5px 10px;
     }
     
-
+    
     .main-content{
         width: 92vw;
     }
-
-      /* flex */
+    
+    /* flex */
     .container-cards{
         gap: 5px 10px;
         flex-wrap: wrap;
     }
-
+    
     .footer-middle i{
         font-size: 1rem;
     }
-
+    
     .time{
         font-size: .7rem;
     }
-
+    
     .footer-left{
         min-width: auto;
     }
-
+    
 }
 
 
