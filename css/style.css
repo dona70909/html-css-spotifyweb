@@ -55,8 +55,8 @@ p{
 /* ********************!SECTION ASIDE ************/
 .aside{
     background-color: #080b12;
-   /*  width: 200px; */
-    width: 20vw;
+    width: 200px;
+   /*  width: 20vw; */
     color:#a9a9a9;
     padding: 1rem;
     justify-content: space-between;
@@ -105,8 +105,8 @@ p{
 
 /* *******************!SECTION MAIN CONTENT */
 .main-content{
-    /* width: calc(100vw - 200px); */
-    width:80vw;
+    width: calc(100vw - 200px);
+    /* width:80vw; */
 }
 
 /* BANNER : RIGHT BUTTON  flex or clearfix?*/
@@ -210,6 +210,7 @@ p{
 
 .bottom-bar > .footer-right{
     width: 20%;
+    align-items: center;
 }
 
 .bottom-bar > .footer-left{
@@ -224,6 +225,7 @@ p{
     color: white;
     font-size: 1rem;
 }
+
 .footer-left{
     align-items: center;
 }
@@ -233,21 +235,28 @@ p{
 }
 
 .footer-left .footer-brano-play{
-    margin: 0 1rem;
+    margin: 0 .5rem;
 }
 
 .footer-left .footer-brano-icons .fa-heart{
-    margin:0 .5rem .5rem 0;
+    margin:0 .3rem .3rem 0;
 }
 
 .footer-right i,.footer-middle-top i{
-    margin-right: 1rem;
+    margin-right: .5rem;
 }
 
 /* ?middle footer  */
 .progress-bar-big{
-    width: 25rem;
-    height: 10px;
+    width: 30rem;
+    height: 5px;
+    border-radius: 30px;
+    background-color: #525252;
+}
+
+.progress-bar-small{
+    width: 15rem;
+    height: 5px;
     border-radius: 30px;
     background-color: #525252;
 }
@@ -255,20 +264,17 @@ p{
 .progress-time{
     background-color: white;
     width:  20%;
-    height: 10px;
+    height: 5px;
     border-radius: 30px;
-}
-
-.progress-bar-small{
-    width: 10rem;
-    height: 10px;
-    border-radius: 30px;
-    background-color: #525252;
 }
 
 .footer-middle-top{
     align-items: center;
     margin-bottom: .5rem;
+}
+
+.footer-middle-top > i{
+    font-size: 1.2rem;
 }
 
 .footer-middle{
@@ -282,7 +288,8 @@ p{
 }
 
 .time{
-    margin:0 1rem;
+    margin:0 .5rem;
+    font-size: .8rem;
     color: white;
 }
 
@@ -352,61 +359,13 @@ p{
 
     .bottom-bar{
         background-color: aqua;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-        height: 5vh;
+        /*   justify-conten : space-between;*/
+        /*   align-items: center;*/
+       /*   padding: 1rem; */
     }
 
-    /* ++++++++++++++ Resizing in medium ? Sixe in % ??? +++++++ */
     
-    .bottom-bar i{
-        font-size: .5rem;
-    }
     
-    .footer-left .footer-brano-play{
-        margin: 0 .5rem;
-    }
-    
-    .footer-left .footer-brano-icons .fa-heart{
-        margin:0 .3rem .3rem 0;
-    }
-    
-    .footer-right i,.footer-middle-top i{
-        margin-right: .3rem;
-    }
-    
-    .footer-middle-top{
-        margin-bottom: .3rem;
-    }
-
-    .progress-bar-small{
-        width: 15rem;
-        height: 5px;
-        border-radius: 30px;
-        background-color: #525252;
-    }
-
-    .progress-bar-big{
-        width: 15rem;
-        height: 5px;
-        border-radius: 30px;
-        background-color: #525252;
-    }
-
-    .progress-time{
-        height: 5px;
-    }
-    
-    .time{
-        margin:0 .5rem;
-        font-size: .3rem;
-    }
-    
-    .small-img{
-        width: 5vw;
-        height: 100%;
-    } 
 }
 
 /* !_____________________SMALL___________ */
