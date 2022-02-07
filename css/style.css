@@ -277,6 +277,7 @@ p{
 /* ?PROGRESS BAR  */
 .progress-bar-big{
     width: 60%;
+    min-width:5rem;
     height: 5px;
     border-radius: 30px;
     background-color: #525252;
@@ -285,7 +286,8 @@ p{
 
 .progress-bar-small{
     /* width: 15rem; */
-    width: 90%;/* del parent, 20vw */
+    width: 60%;
+    min-width:5rem;
     height: 5px;
     border-radius: 30px;
     background-color: #525252;
