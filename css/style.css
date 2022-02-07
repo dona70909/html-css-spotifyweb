@@ -40,6 +40,7 @@ p{
     display: none;
 }
 
+/* border bottom download icon (aside menu) */
 .border-bottom{
     border-bottom:1px solid #65676c;
 }
@@ -118,16 +119,16 @@ p{
     padding-right: 2rem;
 }
 
-.top-banner button> a{
+.top-banner > a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: .8rem;
 }
 
-.top-banner > button{
+/* link background  */
+.top-banner > a{
     padding: .5rem 2rem;
-    background-color: #080b12;
     border: .1rem solid white;
     border-radius: 30px;
 }
