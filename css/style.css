@@ -202,6 +202,7 @@ p{
     padding: 2rem;
 }
 
+
 .bottom-bar > .footer-right{
     width: 20%;
 }
@@ -268,6 +269,7 @@ p{
 .footer-middle{
     align-items: center;
 }
+
 
 /* flex */
 .footer-middle-bottom{
