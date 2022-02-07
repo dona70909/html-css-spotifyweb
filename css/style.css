@@ -59,7 +59,7 @@ p{
     width: 200px;
    /*  width: 20vw; */
     color:#a9a9a9;
-    padding: 1rem;
+    padding: 1rem; 
     justify-content: space-between;
     flex-direction: column;
 }
@@ -387,6 +387,21 @@ p{
 
 .list-menu a:hover, .aside a:hover,.playlist li:hover{
     color:white;
+}
+
+hr{
+    display: none;
+}
+
+.list-menu li:hover hr{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    color: #90d42d;
+}
+
+.home > ul > li:hover {
+    border-left: 1px solid #90d42d;
 }
 
 .fa-play:hover{
