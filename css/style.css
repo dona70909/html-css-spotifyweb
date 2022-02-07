@@ -221,11 +221,13 @@ p{
     width: 50%;
 }
 
+/* *size bottom bar's icon */
 .bottom-bar i{
     color: white;
     font-size: 1rem;
 }
 
+/* *FOOTER LEFT */
 .footer-left{
     align-items: center;
 }
@@ -242,31 +244,13 @@ p{
     margin:0 .3rem .3rem 0;
 }
 
+/* *FOOTER  MIDDLE*/
+
+/* ? FOOTER ICONS */
 .footer-right i,.footer-middle-top i{
     margin-right: .5rem;
 }
 
-/* ?middle footer  */
-.progress-bar-big{
-    width: 30rem;
-    height: 5px;
-    border-radius: 30px;
-    background-color: #525252;
-}
-
-.progress-bar-small{
-    width: 15rem;
-    height: 5px;
-    border-radius: 30px;
-    background-color: #525252;
-}
-
-.progress-time{
-    background-color: white;
-    width:  20%;
-    height: 5px;
-    border-radius: 30px;
-}
 
 .footer-middle-top{
     align-items: center;
@@ -286,6 +270,30 @@ p{
 .footer-middle-bottom{
     align-items: center;
 }
+
+/* ?PROGRESS BAR  */
+.progress-bar-big{
+    width: 30rem;
+    height: 5px;
+    border-radius: 30px;
+    background-color: #525252;
+}
+
+
+.progress-bar-small{
+    width: 15rem;
+    height: 5px;
+    border-radius: 30px;
+    background-color: #525252;
+}
+
+.progress-time{
+    background-color: white;
+    width:  20%;
+    height: 5px;
+    border-radius: 30px;
+}
+
 
 .time{
     margin:0 .5rem;
