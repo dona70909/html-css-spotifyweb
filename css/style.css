@@ -113,7 +113,7 @@ p{
 
 .playlist > ul{
     overflow-y: scroll;
-    height: 25vh;
+    height: 40vh;
 }
 
 /* scrollbar style bonus */
