@@ -97,6 +97,27 @@ p{
     height: 25vh;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-track{
+    background-color: #bbbbbb;
+}
+
+    /* Handle */
+::-webkit-scrollbar-thumb {
+    background:rgb(104, 104, 104);
+    border-radius: 10px; 
+}
+    
+    /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(78, 78, 78); 
+}
+
+
+
 .new-playlist{
     margin-bottom:1rem;
 }
