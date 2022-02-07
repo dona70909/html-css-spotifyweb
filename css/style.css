@@ -106,7 +106,7 @@ p{
 
 /* BANNER : RIGHT BUTTON  flex or clearfix?*/
 .top-banner{
-    height: 10vh;
+    height:80px;
     background-color: #080b12;
     justify-content:end;
     align-items: center;
@@ -195,7 +195,7 @@ p{
 /* Footer bottom bar flex */
 .bottom-bar{
     width: 100vw;
-    height: 10vh;
+    height: 80px;
     background-color: #282828;
     justify-content: space-between;
     align-items: center;
