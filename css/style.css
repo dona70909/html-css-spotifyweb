@@ -90,7 +90,6 @@ p{
 .playlist h2{
     text-transform: uppercase;
     margin-bottom: .5rem;
-    overflow-y: scroll;
 }
 
 .playlist > ul{
