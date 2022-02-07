@@ -77,6 +77,11 @@ p{
 
 .playlist h2{
     text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.new-playlist{
+    margin-bottom:1rem;
 }
 
 .home, .logo{
