@@ -87,6 +87,10 @@ p{
     font-size: .7rem;
 }
 
+.home {
+    padding: 0;
+}
+
 .playlist h2{
     text-transform: uppercase;
     margin-bottom: .5rem;
@@ -97,10 +101,12 @@ p{
     height: 25vh;
 }
 
+/* scrollbar style bonus */
 ::-webkit-scrollbar{
     width: 10px;
     border-radius: 30px;
 }
+
 ::-webkit-scrollbar-track{
     background-color: #bbbbbb;
 }
@@ -115,8 +121,7 @@ p{
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(78, 78, 78); 
 }
-
-
+/* +++++++++++++++++++++++++++++ */
 
 .new-playlist{
     margin-bottom:1rem;
@@ -436,7 +441,7 @@ hr{
     color: #90d42d;
 }
 
-.home > ul > li:hover {
+.home > ul > li:hover object {
     border-left: 1px solid #90d42d;
 }
 
