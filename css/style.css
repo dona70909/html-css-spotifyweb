@@ -174,7 +174,9 @@ p{
 
 .playlists-rows{
     overflow-y: scroll;
-    height: 80vh;
+   /*  height: 80vh; */
+    height: calc(100vh - 160px);
+    /* prendi sempre tutto lo schermo tranne bottom bar */
     background-color:rgb(20, 25, 34);
     padding: 30px;
 }
