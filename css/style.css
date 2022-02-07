@@ -343,7 +343,38 @@ p{
 }
 
 /* todo  ++++++++++++++++++++++++++++++++ HOVER +++++++++++++++++++++++++++++++ */
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
 
+.center-play{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: .5rem 0rem 0 0.2rem;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.container-img-relative > .fa-play{
+    display: none;
+}
+
+.card > img:hover{
+    filter: opacity(1);
+}
+.container-img-relative:hover .center-play{
+    display: block;
+}
 
 
 /* ! _____________________LARGE__________ */
