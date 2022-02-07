@@ -64,6 +64,12 @@ p{
     flex-direction: column;
 }
 
+.aside object{
+    width: 1.3rem;
+    vertical-align: baseline;
+    filter: invert(.4);
+}
+
 
 .aside a{
     text-decoration: none;
@@ -110,7 +116,7 @@ p{
     /* width:80vw; */
 }
 
-/* BANNER : RIGHT BUTTON  flex or clearfix?*/
+/* BANNER : RIGHT BUTTON  flex*/
 .top-banner{
     height:80px;
     background-color: #080b12;
