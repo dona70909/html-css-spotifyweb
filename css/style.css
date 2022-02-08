@@ -584,6 +584,7 @@ hr{
 /* !____________________EXTRA SMALL______ */
 @media screen and (max-width:576px) {
     
+    /* todo ----ASIDE MENU--- */
     .aside{
         width: 10vw;
         align-items: center;
@@ -616,7 +617,12 @@ hr{
         border-bottom: none;
     }
     
-    /* MENU LINK CENTER  flex*/
+    /*TODO  ----- MENU LINK CENTER---flex*/
+
+    .top-banner > a:hover{
+        transform: scale(1.1);
+    }
+
     .list-menu{
         flex-wrap: wrap;
         justify-content: center;
@@ -631,7 +637,7 @@ hr{
         gap: 5px 10px;
     }
     
-    
+
     .main-content{
         width: 90vw;
     }
@@ -641,6 +647,9 @@ hr{
         gap: 5px 10px;
         flex-wrap: wrap;
     }
+    
+
+    /* TODO -----FOOTER---- */
     
     .footer-middle i{
         font-size: 1rem;
