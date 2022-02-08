@@ -228,22 +228,19 @@ main{
     padding: 10px;
 }
 
-/* flex */ /* !! +++++++++++++++ MODIFICA QUI ++ */
+/* flex */ /* !! +++++++++ MODIFICA QUI ++ */
 .container-cards{
     padding: 10px;
-   /*  gap: 1.5rem 3rem; */
-    /* flex-wrap: wrap; */
     gap:1.5% 3%;
 }
 /* cards flex-items */
 .card{
     width: 200px;
     flex-shrink: 1;
-    /* shrink 0 */
 } 
 
 
-/* !! +++++++++++++++ MODIFICA SOPRA ++ */
+/* !! +++++++++++++++ ^^^^ ++ */
 
 .card img{
     object-fit: contain;
