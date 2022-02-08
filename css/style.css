@@ -106,6 +106,12 @@ p{
     margin-bottom: .5rem;
 }
 
+/* !problema play height */
+.playlist ul{
+    height: 50px;
+    overflow-y: scroll;
+}
+
 /* scrollbar style bonus */
 ::-webkit-scrollbar{
     width: 10px;
@@ -512,6 +518,7 @@ hr{
     .card{
         width: 200px;
         flex-shrink: 1;
+        margin-bottom: 1rem;
     }
     /* ?+++++++ */
 }
@@ -538,11 +545,6 @@ hr{
         text-align: center;
     }
     
-    /* smaller gap */
-    .container-cards{
-        gap: 5px 10px;
-    }
-
     /* ?cards img */
     .container-cards{
         padding: 10px;
@@ -554,7 +556,7 @@ hr{
     .card{
         width: 200px;
         flex-shrink: 0;
-        /* shrink 0 */
+        margin-bottom: 1rem;
     }
 
     /* ?++++++ */
@@ -594,6 +596,7 @@ hr{
     .card{
         width: 200px;
         flex-shrink: 0;
+        margin-bottom: 1rem;
     }
     /* ? +++++++++ */
     
@@ -683,6 +686,7 @@ hr{
     .card{
         width: 200px;
         flex-shrink: 0;
+        margin-bottom: 1rem;
     }
 
     /* ?+++++++++++++++++++ */
