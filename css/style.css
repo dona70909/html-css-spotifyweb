@@ -235,17 +235,22 @@ main{
     padding: 10px;
 }
 
-/* flex */
+/* flex */ /* !! +++++++++++++++ MODIFICA QUI ++ */
 .container-cards{
     padding: 10px;
-    gap: 1.5rem 3rem;
-    flex-wrap: wrap;
+   /*  gap: 1.5rem 3rem; */
+    /* flex-wrap: wrap; */
+    gap:1.5% 3%;
 }
 /* cards flex-items */
 .card{
     width: 200px;
-    flex-shrink: 0;
+    flex-shrink: 1;
+    /* shrink 0 */
 } 
+
+
+/* !! +++++++++++++++ MODIFICA SOPRA ++ */
 
 .card img{
     object-fit: contain;
@@ -506,7 +511,18 @@ hr{
         overflow-y: scroll;
         height:50%;
     }
+
+    /* !modifiche */
     
+    .container-cards{
+        padding: 10px;
+        gap:1.5% 3%;
+    }
+    /* cards flex-items */
+    .card{
+        width: 200px;
+        flex-shrink: 1;
+    }
 }
 
 /* !_____________________MEDIUM__________ */
@@ -535,6 +551,22 @@ hr{
     .container-cards{
         gap: 5px 10px;
     }
+
+    /* ! cards img */
+    .container-cards{
+        padding: 10px;
+        flex-wrap: wrap; 
+        gap:1.5% 3%;
+    }
+
+    /* cards flex-items */
+    .card{
+        width: 200px;
+        flex-shrink: 0;
+        /* shrink 0 */
+    }
+
+    /* !++++++ */
     
 }
 
@@ -561,10 +593,18 @@ hr{
         text-align: center;
     }
     
-    /* smaller gap */
+    /* ! cards img*/
     .container-cards{
-        gap: 5px 10px;
+        padding: 10px;
+        flex-wrap: wrap; 
+        gap:2% 4%;
     }
+    /* cards flex-items */
+    .card{
+        width: 200px;
+        flex-shrink: 0;
+    }
+    /* !+++++++++ */
     
     /* FOOTER */
     
@@ -643,10 +683,16 @@ hr{
         width: calc(100vw - 50px);
     }
     
-    /* flex */
+    /* !modifiche images-cards */
     .container-cards{
-        gap: 5px 10px;
-        flex-wrap: wrap;
+        padding: 10px;
+        flex-wrap: wrap; 
+        gap:2rem 4rem;
+    }
+    /* cards flex-items */
+    .card{
+        width: 200px;
+        flex-shrink: 0;
     }
     
 
