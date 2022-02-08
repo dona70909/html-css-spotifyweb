@@ -491,7 +491,7 @@ hr{
 
 
 /* ! _____________________LARGE__________ */
-@media screen and (min-width:992px) and (max-width:1300px) {
+@media screen and (min-width:992px) and (max-width:1199px) {
     
     /* smaller gap? */
     .container-cards{
@@ -586,7 +586,8 @@ hr{
     
     /* todo ----ASIDE MENU--- */
     .aside{
-        width: 10vw;
+        width: 50px;
+        /* width:10vw */
         align-items: center;
         text-align: center;
     }
@@ -639,7 +640,7 @@ hr{
     
 
     .main-content{
-        width: 90vw;
+        width: calc(100vw - 50px);
     }
     
     /* flex */
@@ -650,7 +651,7 @@ hr{
     
 
     /* TODO -----FOOTER---- */
-    
+
     .footer-middle i{
         font-size: 1rem;
     }
