@@ -109,8 +109,8 @@ p{
 }
 
 .playlist > ul{
-    overflow-y: scroll;
-    height:200px;
+   /*  overflow-y: scroll;
+    height:70px; */
 }
 
 /* scrollbar style bonus */
@@ -491,12 +491,17 @@ hr{
 
 
 /* ! _____________________LARGE__________ */
-@media screen and (min-width:992px) and (max-width:1199px) {
+@media screen and (min-width:992px) and (max-width:1300px) {
     
     /* smaller gap? */
     .container-cards{
         gap: 5px 10px;
     } 
+
+    .playlist > ul{
+        overflow-y: scroll;
+        height:50px;
+    }
     
 }
 
