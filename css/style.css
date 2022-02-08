@@ -58,6 +58,8 @@ p{
     color:#a9a9a9;
     justify-content: space-between;
     flex-direction: column;
+    /* quando l'altezza diminuisce */
+    overflow: hidden;
 }
 
 /*??linea laterale */
