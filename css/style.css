@@ -550,7 +550,7 @@ hr{
         overflow-y: scroll;
         height:50%;
     }
-    
+
     /* MENU LINK CENTER  flex*/
     .list-menu{
         flex-wrap: wrap;
@@ -585,7 +585,7 @@ hr{
 @media screen and (max-width:576px) {
     
     .aside{
-        width: 8vw;
+        width: 10vw;
         align-items: center;
         text-align: center;
     }
@@ -593,11 +593,18 @@ hr{
     .logo > img{
         display: none;
     }
+
+    .home,.logo{
+        margin-bottom: 0;
+    }
+
+    .logo{
+        margin-bottom: 0;
+    }
     
     .logo-spotify{
         display:block;
         font-size: 1.5rem;
-        margin-bottom: 1rem;
     }
     
     .aside a,.playlist{
@@ -626,7 +633,7 @@ hr{
     
     
     .main-content{
-        width: 92vw;
+        width: 90vw;
     }
     
     /* flex */
