@@ -62,7 +62,7 @@ p{
 
 /*??linea laterale */
 .logo{
-    padding:1rem;
+    padding:.5rem 1rem;
 }
 
 .border-left-line{
@@ -107,10 +107,18 @@ p{
 }
 
 /* !problema play height */
-.playlist ul{
+/*.playlist ul{
     height: 50px;
     overflow-y: scroll;
+}*/
+
+/* !seconda versione */
+.playlist ul{
+    height:calc((100vh - 80px) / 5) ;
+    overflow-y: scroll;
+    min-height: 32px;
 }
+
 
 /* scrollbar style bonus */
 ::-webkit-scrollbar{
@@ -140,7 +148,7 @@ p{
     margin-bottom:1rem;
 }
 
-.home, .logo{
+.home{
     margin-bottom: 1rem;
 }
 
@@ -491,6 +499,7 @@ hr{
 }
 
 
+
 /* ! _____________________LARGE__________ */
 @media screen and (min-width:992px) and (max-width:1199px) {
     
@@ -499,14 +508,14 @@ hr{
         gap: 5px 10px;
     } 
 
-    .playlist{
+    /*.playlist{
         height: 200px;
-    }
+    }*/
 
-    .playlist > ul{
+    /*.playlist > ul{
         overflow-y: scroll;
         height:50%;
-    }
+    }*/
 
     /* ? img cards */
     
@@ -526,14 +535,15 @@ hr{
 /* !_____________________MEDIUM__________ */
 @media  screen and (min-width:768px) and (max-width:991px) {
 
-    .playlist{
-        height: 200px;
-    }
+    /*.playlist{
+        height: 200px; 
+    }*/
 
-    .playlist > ul{
+    /*.playlist > ul{
         overflow-y: scroll;
-        height:50%;
-    }
+        height:50%; 
+        background-color: pink;
+    }*/
     
     /* MENU LINK CENTER  flex*/
     .list-menu{
@@ -566,15 +576,14 @@ hr{
 /* !_____________________SMALL___________ */
 @media  screen and (min-width:577px) and (max-width:767px) {
     
-    .playlist{
+    /*.playlist{
         height: 150px;
-    
-    }
+    }*/
 
-    .playlist > ul{
+    /*.playlist > ul{
         overflow-y: scroll;
-        height:50%;
-    }
+        height:50%; 
+    }*/
 
     /* MENU LINK CENTER  flex*/
     .list-menu{
