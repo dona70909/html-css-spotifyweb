@@ -109,7 +109,7 @@ p{
 }
 
 .playlist > ul{
-   /*  overflow-y: scroll;
+    /*  overflow-y: scroll;
     height:70px; */
 }
 
@@ -498,15 +498,28 @@ hr{
         gap: 5px 10px;
     } 
 
+    .playlist{
+        height: 200px;
+    }
+
     .playlist > ul{
         overflow-y: scroll;
-        height:50px;
+        height:50%;
     }
     
 }
 
 /* !_____________________MEDIUM__________ */
 @media  screen and (min-width:768px) and (max-width:991px) {
+
+    .playlist{
+        height: 200px;
+    }
+
+    .playlist > ul{
+        overflow-y: scroll;
+        height:50%;
+    }
     
     /* MENU LINK CENTER  flex*/
     .list-menu{
@@ -528,6 +541,15 @@ hr{
 /* !_____________________SMALL___________ */
 @media  screen and (min-width:577px) and (max-width:767px) {
     
+    .playlist{
+        height: 150px;
+    
+    }
+
+    .playlist > ul{
+        overflow-y: scroll;
+        height:50%;
+    }
     
     /* MENU LINK CENTER  flex*/
     .list-menu{
