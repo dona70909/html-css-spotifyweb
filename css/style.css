@@ -116,19 +116,21 @@ p{
 /* scrollbar style bonus */
 ::-webkit-scrollbar{
     width: 10px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track{
     background-color: #bbbbbb;
+    border-radius: 10px;
+    width: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background:rgb(104, 104, 104);
-    border-radius: 10px; 
+    border-radius: 10px;
+    width: 10px;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(78, 78, 78); 
@@ -298,6 +300,7 @@ main{
     align-items: center;
 }
 
+
 .footer-left h4{
     color: white;
 }
@@ -308,6 +311,10 @@ main{
 
 .footer-left .footer-brano-icons .fa-heart{
     margin:0 .3rem .3rem 0;
+}
+
+.footer-brano-icons{
+    display: flex;  
 }
 
 .footer-left .fa-heart{
@@ -541,6 +548,9 @@ hr{
         flex: wrap;
     }
     
+    .footer-brano-icons{
+        flex-direction: column;
+    }
 }
 
 /* !____________________EXTRA SMALL______ */
@@ -607,6 +617,10 @@ hr{
     
     .footer-left{
         min-width: auto;
+    }
+
+    .footer-brano-icons{
+        flex-direction: column;  
     }
     
 }
