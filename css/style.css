@@ -309,16 +309,14 @@ main{
     margin: 0 .5rem;
 }
 
-.footer-left .footer-brano-icons .fa-heart{
-    margin:0 .3rem .3rem 0;
-}
 
 .footer-brano-icons{
-    display: flex;  
+    display: flex;
 }
 
 .footer-left .fa-heart{
     color: #525252;
+    margin-right: .5rem;
 }
 
 .footer-left .fa-folder{
@@ -327,7 +325,7 @@ main{
 
 /* *FOOTER  MIDDLE*/
 
-/* ? FOOTER ICONS */
+/* ? FOOTER ICONS middle*/
 .footer-right i,.footer-middle-top i{
     margin-right: .5rem;
 }
@@ -375,7 +373,6 @@ main{
 }
 
 .progress-bar-small{
-    /* width: 15rem; */
     width: 60%;
     min-width:3rem;
     height: 5px;
@@ -551,6 +548,10 @@ hr{
     .footer-brano-icons{
         flex-direction: column;
     }
+
+    .footer-left .footer-brano-icons .fa-heart{
+        margin:0 .3rem .3rem 0;
+    }
 }
 
 /* !____________________EXTRA SMALL______ */
@@ -621,6 +622,10 @@ hr{
 
     .footer-brano-icons{
         flex-direction: column;  
+    }
+
+    .footer-left .footer-brano-icons .fa-heart{
+        margin:0 .3rem .3rem 0;
     }
     
 }
