@@ -5,11 +5,7 @@
     font-family: 'DM Sans', sans-serif;
 }
 /* TODO --------------------COMMON PROPERTIES */
-main{
-    /* bottom bar fissa */
-    height: calc(100vh - 80px);
-    overflow-y: auto;
-}
+
 
 .flex{
     display:flex;
@@ -58,9 +54,8 @@ p{
 .aside{
     background-color: #080b12;
     width: 200px;
-    /*  width: 20vw; */
+    height: calc(100vh - 80px);
     color:#a9a9a9;
-    /* padding: 1rem;  */
     justify-content: space-between;
     flex-direction: column;
 }
@@ -113,7 +108,7 @@ p{
 
 .playlist > ul{
     overflow-y: scroll;
-    height: 40vh;
+    height:200px;
 }
 
 /* scrollbar style bonus */
@@ -166,9 +161,16 @@ p{
 
 
 /* *******************!SECTION MAIN CONTENT */
+/* altezza contenuto centrale - altezza della bottom bar per fissarla */
+main{
+    height: calc(100vh - 80px);
+}
+
+/* scrolla solo la parte a destra  */
 .main-content{
     width: calc(100vw - 200px);
-    /* width:80vw; */
+    overflow-y: scroll; 
+    height: calc(100vh - 80px);
 }
 
 /* BANNER : RIGHT BUTTON  flex*/
@@ -217,10 +219,8 @@ p{
 /* *****------CARDS-------- */
 
 .playlists-rows{
-    overflow-y: scroll;
-    /*  height: 80vh; */
     /* overflow funziona comunque ma su tutta la sezione main-right, con l'altezza restava uno spazio bianco alla fine, dovuto al padding dell'aside */
-    height: calc(100vh - 160px); 
+    
     /* prendi sempre tutto lo schermo tranne bottom bar */
     background-color:rgb(20, 25, 34);
     padding: 30px;
