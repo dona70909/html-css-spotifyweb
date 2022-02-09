@@ -56,33 +56,7 @@ p{
     color:#a9a9a9;
     justify-content: space-between;
     flex-direction: column;
-    /* quando l'altezza diminuisce */
     overflow: hidden;
-}
-
-/*??linea laterale */
-.logo{
-    padding:.5rem 1rem;
-}
-
-.border-left-line{
-    padding:0 1rem;
-}
-
-.playlist{
-    padding:0 1rem;
-}
-
-.bottom-aside{
-    padding: 0 1rem;
-}
-
-/* ??????????????? */
-
-.aside object{
-    width: 1.4rem;
-    vertical-align: baseline;
-    filter: invert(.4);
 }
 
 .aside a{
@@ -96,10 +70,33 @@ p{
     list-style: none;
 }
 
+.aside object{
+    width: 1.4rem;
+    vertical-align: baseline;
+    filter: invert(.4);
+}
+
+
+/* ?TOP ASIDE: PLAYLIST-LOGO- HOME */
+.logo{
+    padding:.5rem 1rem;
+}
+
+/* *border left on hover */
+.border-left-line{
+    padding:0 1rem;
+}
+
+
+.playlist{
+    padding:0 1rem;
+}
+
 .home ul li, .playlist ul li{
     padding: .5rem 0;
     font-size: .7rem;
 }
+
 
 .playlist h2{
     text-transform: uppercase;
@@ -113,37 +110,17 @@ p{
     min-height: 32px;
 }
 
-
-/* scrollbar style bonus */
-::-webkit-scrollbar{
-    width: 10px;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-track{
-    background-color: #bbbbbb;
-    border-radius: 10px;
-    width: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background:rgb(104, 104, 104);
-    border-radius: 10px;
-    width: 10px;
-}
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(78, 78, 78); 
-}
-/* +++++++++++++++++++++++++++++ */
-
 .new-playlist{
     margin-bottom:1rem;
 }
 
 .home{
     margin-bottom: 1rem;
+}
+
+/* ?BOTTOM ASIDE USER AND INSTALL */
+.bottom-aside{
+    padding: 0 1rem;
 }
 
 .bottom-aside .install-app{
@@ -178,7 +155,7 @@ main{
     height: calc(100vh - 80px);
 }
 
-/* BANNER : RIGHT BUTTON  flex*/
+/* *******? BANNER : RIGHT BUTTON  flex*/
 .top-banner{
     height:80px;
     background-color: #080b12;
@@ -201,7 +178,7 @@ main{
     border-radius: 30px;
 }
 
-/* ******* MENU LINK CENTER  flex*******/
+/* ********? MENU LINK CENTER  flex*******/
 .list-menu{
     background-color: rgb(20, 25, 34);
     justify-content: center;
@@ -221,7 +198,7 @@ main{
     font-size: .8rem;
 }
 
-/* *****------CARDS-------- */
+/* **********?------CARDS-------- */
 
 .playlists-rows{
     background-color:rgb(20, 25, 34);
@@ -236,7 +213,7 @@ main{
     padding: 10px;
 }
 
-/* flex */ /* ?+++++++++ MODIFICA QUI ++ */
+/* *flex */ 
 .container-cards{
     padding: 10px;
     gap:1.5% 3%;
@@ -246,9 +223,6 @@ main{
 .card{
     width: calc(100% / 6);
 } 
-
-
-/* !? +++++++++++++++ ^^^^ ++ */
 
 .card img{
     object-fit: contain;
@@ -266,7 +240,7 @@ main{
 
 
 /* ******************!FOOTER BOTTOM NAV BAR */
-/* Footer bottom bar flex */
+/* ?Footer bottom bar flex */
 .bottom-bar{
     width: 100%;
     height: 80px;
@@ -292,13 +266,13 @@ main{
     width:600px;
 }
 
-/* ?size bottom bar's icon */
+/* ** size bottom bar's icon */
 .bottom-bar i{
     color: white;
     font-size: 1rem;
 }
 
-/* *FOOTER LEFT */
+/* ?-----------FOOTER LEFT----------*/
 .footer-left{
     align-items: center;
 }
@@ -326,9 +300,9 @@ main{
     color:#525252;
 }
 
-/* *FOOTER  MIDDLE*/
+/* ? ------------FOOTER  MIDDLE--------*/
 
-/* ? FOOTER ICONS middle*/
+/* *FOOTER ICONS middle*/
 .footer-right i,.footer-middle-top i{
     margin-right: .5rem;
 }
@@ -366,7 +340,7 @@ main{
     border: 3px solid white;
 }
 
-/* ?PROGRESS BAR  */
+/* **************** PROGRESS BAR and small circle  */
 .progress-bar-big{
     width: 60%;
     min-width:3rem;
@@ -401,7 +375,7 @@ main{
     transform: translate(-50%,-50%);
     left: 100%;
 }
-
+/* ********************************** */
 
 .time{
     margin:0 .5rem;
