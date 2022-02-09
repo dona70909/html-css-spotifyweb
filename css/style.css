@@ -106,13 +106,7 @@ p{
     margin-bottom: .5rem;
 }
 
-/* ?problema play height */
-/*.playlist ul{
-    height: 50px;
-    overflow-y: scroll;
-}*/
 
-/*seconda versione */
 .playlist ul{
     height:calc((100vh - 80px) / 5) ;
     overflow-y: scroll;
@@ -504,7 +498,7 @@ hr{
 @media screen and (min-width:992px) and (max-width:1199px) {
     
     /* ? img cards */
-    
+
     .container-cards{
         padding: 10px;
         gap:1.5% 3%;
@@ -514,6 +508,7 @@ hr{
     /* cards flex-items */
     .card{
         width: calc(100% / 6);
+        margin-bottom: 1rem;
         
     } 
     /* ?+++++++ */
@@ -541,6 +536,7 @@ hr{
     /* cards flex-items */
     .card{
         width: calc(100% / 4);
+        margin-bottom: 1rem;
     } 
 
     /* ?++++++ */
@@ -563,12 +559,13 @@ hr{
     /* ? cards img*/
     .container-cards{
         padding: 10px;
-        gap:1.5% 3%;
+        gap:0;
         flex-wrap: wrap;
     }
     /* cards flex-items */
     .card{
-        width: calc(100% / 2);
+        width: calc((100% / 2) - 2rem);
+        margin:0 1rem 1rem;
     } 
     /* ? +++++++++ */
     
@@ -651,14 +648,19 @@ hr{
     /* ?modifiche images-cards */
     .container-cards{
         padding: 10px;
-        gap:1.5% 3%;
+        gap:0;
         flex-wrap: wrap;
     }
     /* cards flex-items */
     .card{
-        width: 100%;
-        margin-bottom: 2rem;
+        width:calc(100% - 2rem);
+        margin:0 1rem 2rem;
     } 
+
+    .card img{
+        width: 70%;
+        object-fit: contain;
+    }
 
     /* ?+++++++++++++++++++ */
     
