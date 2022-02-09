@@ -106,13 +106,13 @@ p{
     margin-bottom: .5rem;
 }
 
-/* !problema play height */
+/* ?problema play height */
 /*.playlist ul{
     height: 50px;
     overflow-y: scroll;
 }*/
 
-/* !seconda versione */
+/*seconda versione */
 .playlist ul{
     height:calc((100vh - 80px) / 5) ;
     overflow-y: scroll;
@@ -242,19 +242,25 @@ main{
     padding: 10px;
 }
 
-/* flex */ /* !! +++++++++ MODIFICA QUI ++ */
+/* flex */ /* ?+++++++++ MODIFICA QUI ++ */
 .container-cards{
     padding: 10px;
     gap:1.5% 3%;
 }
 /* cards flex-items */
-.card{
-    width: 200px;
-    flex-shrink: 1;
+.recently-played-playlists .card{
+    width: calc(100% / 6);
 } 
 
+.user-playlists .card{
+    width: calc(100% / 6);
+}
 
-/* !! +++++++++++++++ ^^^^ ++ */
+.popular-playlists .card{
+    width: calc(100% / 6);
+}
+
+/* !? +++++++++++++++ ^^^^ ++ */
 
 .card img{
     object-fit: contain;
