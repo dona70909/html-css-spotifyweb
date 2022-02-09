@@ -612,6 +612,11 @@ hr{
 
     .logo{
         margin-bottom: 0;
+        padding: .5rem 0 .5rem .49rem;
+    }
+
+    .border-left-line{
+        padding-left:.9rem;
     }
     
     .logo-spotify{
@@ -626,6 +631,10 @@ hr{
     /* border bottom download icon */
     .border-bottom{
         border-bottom: none;
+    }
+
+    .border-left-line{
+        padding-left: .5rem;
     }
     
     /* ----- MENU LINK CENTER---flex*/
