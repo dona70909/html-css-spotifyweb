@@ -248,17 +248,11 @@ main{
     gap:1.5% 3%;
 }
 /* cards flex-items */
-.recently-played-playlists .card{
-    width: calc(100% / 6);
+.card{
+    width: 200px;
+    flex-shrink: 1;
 } 
 
-.user-playlists .card{
-    width: calc(100% / 6);
-}
-
-.popular-playlists .card{
-    width: calc(100% / 6);
-}
 
 /* !? +++++++++++++++ ^^^^ ++ */
 
