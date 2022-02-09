@@ -80,7 +80,7 @@ p{
 /* ??????????????? */
 
 .aside object{
-    width: 1.3rem;
+    width: 1.4rem;
     vertical-align: baseline;
     filter: invert(.4);
 }
@@ -612,7 +612,7 @@ hr{
 
     .logo{
         margin-bottom: 0;
-        padding: .5rem 0 .5rem .49rem;
+        padding: .5rem 0 .5rem .5rem;
     }
 
     .border-left-line{
