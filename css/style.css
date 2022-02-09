@@ -472,14 +472,13 @@ hr{
 @media screen and (min-width:992px) and (max-width:1199px) {
     
     /* ? img cards */
-
     .container-cards{
         padding: 10px;
         gap:1.5% 3%;
         flex-wrap: wrap;
         margin-bottom: 2rem;
     }
-    /* cards flex-items */
+    /* ?cards flex-items */
     .card{
         width: calc(100% / 6);
         margin-bottom: 1rem;
@@ -491,7 +490,7 @@ hr{
 /* !_____________________MEDIUM__________ */
 @media  screen and (min-width:768px) and (max-width:991px) {
 
-    /* MENU LINK CENTER  flex*/
+    /* ? LIST MENU  flex*/
     .list-menu{
         flex-wrap: wrap;
         justify-content: center;
@@ -505,7 +504,8 @@ hr{
         padding: 0;
     }
     
-    /* ?cards img */
+    /* ? ----- CARDS IMG --- */
+
     .container-cards{
         padding: 10px;
         gap:0;
@@ -524,7 +524,7 @@ hr{
 /* !_____________________SMALL___________ */
 @media  screen and (min-width:577px) and (max-width:767px) {
     
-    /* MENU LINK CENTER  flex*/
+    /* ? LIST MENU flex*/
     .list-menu{
         flex-wrap: wrap;
         justify-content: center;
@@ -551,7 +551,7 @@ hr{
     } 
     /* ? +++++++++ */
     
-    /* FOOTER */
+    /* ? FOOTER */
     
     .footer-left {
         flex: wrap;
@@ -569,7 +569,7 @@ hr{
 /* !____________________EXTRA SMALL______ */
 @media screen and (max-width:576px) {
     
-    /*  ----ASIDE MENU--- */
+    /* ?   ASIDE MENU--- */
     .aside{
         width: 50px;
         align-items: center;
@@ -611,7 +611,7 @@ hr{
         padding-left: .5rem;
     }
     
-    /* ----- MENU LINK CENTER---flex*/
+    /* ?  LIST MENU flex*/
 
     .top-banner > a:hover{
         transform: scale(1.1);
@@ -625,23 +625,21 @@ hr{
     .list-menu > ul{
         text-align: center;
     }
-    
-    /* smaller gap */
-    .container-cards{
-        gap: 5px 10px;
-    }
-    
 
     .main-content{
         width: calc(100vw - 50px);
     }
     
+
+    /* ? CARDS IMG */
     /* ?modifiche images-cards */
+
     .container-cards{
         padding: 10px;
         gap:0;
         flex-wrap: wrap;
     }
+
     /* cards flex-items */
     .card{
         width:calc((100% / 2) - 2rem);
@@ -652,11 +650,9 @@ hr{
         width: 100%;
         object-fit: contain;
     }
-
-    /* ?+++++++++++++++++++ */
     
 
-    /*  -----FOOTER---- */
+    /*  ?-----FOOTER---- */
 
     footer{
         justify-content: center;
