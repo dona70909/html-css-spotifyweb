@@ -653,12 +653,12 @@ hr{
     }
     /* cards flex-items */
     .card{
-        width:calc(100% - 2rem);
+        width:calc((100% / 2) - 2rem);
         margin:0 1rem 2rem;
     } 
 
     .card img{
-        width: 70%;
+        width: 100%;
         object-fit: contain;
     }
 
