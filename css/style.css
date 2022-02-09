@@ -526,17 +526,21 @@ hr{
     .list-menu > ul{
         text-align: center;
     }
+
+    .playlists-rows{
+        padding: 0;
+    }
     
     /* ?cards img */
     .container-cards{
         padding: 10px;
-        gap:1.5% 3%;
+        gap:0;
         flex-wrap: wrap;
     }
     /* cards flex-items */
     .card{
-        width: calc(100% / 4);
-        margin-bottom: 1rem;
+        width: calc((100% / 4) - 2rem);
+        margin:0 .5rem 1rem;
     } 
 
     /* ?++++++ */
@@ -554,6 +558,10 @@ hr{
     
     .list-menu > ul{
         text-align: center;
+    }
+
+    .top-banner > a:hover{
+        transform: scale(1.1);
     }
     
     /* ? cards img*/
@@ -587,7 +595,7 @@ hr{
 /* !____________________EXTRA SMALL______ */
 @media screen and (max-width:576px) {
     
-    /* todo ----ASIDE MENU--- */
+    /*  ----ASIDE MENU--- */
     .aside{
         width: 50px;
         align-items: center;
@@ -620,7 +628,7 @@ hr{
         border-bottom: none;
     }
     
-    /*TODO  ----- MENU LINK CENTER---flex*/
+    /* ----- MENU LINK CENTER---flex*/
 
     .top-banner > a:hover{
         transform: scale(1.1);
@@ -665,7 +673,7 @@ hr{
     /* ?+++++++++++++++++++ */
     
 
-    /* TODO -----FOOTER---- */
+    /*  -----FOOTER---- */
 
     .footer-middle i{
         font-size: 1rem;
