@@ -9,6 +9,16 @@
     display:flex;
 }
 
+/*  bonus: overflow + min-width per non ridurre la pagina*/
+.bottom-bar{
+    overflow: hidden;
+}
+
+body{
+    min-width: 50vw;
+    min-height: 50vh;
+}
+
 h1,h4{
     color: white;
 }
